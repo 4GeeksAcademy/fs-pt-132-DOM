@@ -16,18 +16,43 @@
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+
+    <div id="card" class="card bg-secondary">
+      <div class="card-header">
+        <h1 id="cardTitle">
+          title
+        </h1>
+      </div>
+      <div class="card-body">
+        <img id="cardImg" 
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.BAx3AP7S-q1MDst1xn7FfAHaEH%3Fpid%3DApi&f=1&ipt=0bf3b1a3b6eb25b4c826a6fe6981530aab6d68e39ceedd746ab8cf023c34a1c6&ipo=images" 
+        alt="random pic">
+        <div id="cardContent"></div>
+      </div>
+      <div id="cardFooter" class="card-footer">
+        <p id="cardFooterInfo">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae impedit porro rem natus magni, facere vel nihil eius est nulla tenetur iusto illo velit odio, molestias nesciunt labore placeat minima?
+        </p>
       </div>
     </div>
+
+  <button onclick="" class="btn btn-dark" id="btnSusto">a que tu asusto!</button>
+
+    <div id="susto" class="hidden"  >
+      <p class="fs-1">buuuuuuuuuuuuuuuuuuuuuu</p>
+    </div>
+
+<p>
+  como te llamas?
+</p>
+    <input id="inputName" type="test" name="name">
+
+  <p>
+    aqui aparecera tu nombre: <span id="showName"></span>
+  </p>
+  <p id="magic" class="hidden">
+    MAGIAAAAAA
+  </p>
 
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>

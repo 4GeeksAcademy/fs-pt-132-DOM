@@ -3,3 +3,12 @@
 body{
     background: white;
 }
+
+
+input[name='email']{
+    background-color: aqua;
+}
+
+.hidden{
+    display: none;
+}
